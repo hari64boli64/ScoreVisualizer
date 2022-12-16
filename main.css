@@ -335,6 +335,11 @@ details[open] summary {
   border-radius: 3px;
 }
 
+.ui.disabled.input,
+.ui.input:not(.disabled) input[disabled] {
+  opacity: 1;
+}
+
 #slider {
   width: 400px;
 }
