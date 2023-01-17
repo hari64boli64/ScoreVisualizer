@@ -31,9 +31,9 @@ $$
 
 * $N$はデータの総数(int)
 * $M$はペナルティの種類数(int)
-* $Title,Label_j$はグラフの題名、及び、$j$番目に重要なペナルティの名前(string)(optional)
-* $P_{ij}$は$i$番目のデータの$j$番目に重要なペナルティの値(int or float)
-* $C_i$は$i$番目のデータの色付け(int or float)(optional)
+* $Title,Label_i$はグラフの題名、及び、i番目に重要なペナルティの名前(string)(optional)
+* $p_{ij}$はi番目のデータのj番目に重要なペナルティの値(int)
+* $c_i$はi番目のデータの色付け(int)(optional)
 
 とします。
 
@@ -64,6 +64,10 @@ $$
 
 ---
 
+gradientColorという機能を付けてみました。このチェックボックスにチェックすると、入力でcが与えられている場合、その値に比例して色が緑から赤へとグラデーションします。
+
+---
+
 いくつかのGUIから変更可能な要素の説明をします。
 
 * 題名
@@ -79,6 +83,4 @@ $$
 
 ---
 
-バグや要望等があれば、[hari64boli64](https://github.com/hari64boli64)まで。
-Asprova社の方は、SolverLaboからこのビジュアライザのソースコードが見られます。
-挙動が変だな? と思った場合、[開発者用ツール](https://developer.mozilla.org/ja/docs/Learn/Common_questions/What_are_browser_developer_tools)を見ると解決する場合があったり、報告いただく際に私が楽になったりします。
+バグや要望等があれば、hari64boli64まで。
